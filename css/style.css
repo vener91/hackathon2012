@@ -1,0 +1,100 @@
+#welcome-banner {
+    position: fixed;
+    background-image: url("/img/banner.jpg");
+    background-size: cover;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#login-bar {
+    background: rgba(255,255,255,0.5);
+    width: 400px;  
+    height: 300px;
+    margin: auto auto;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+#fb-btn {
+    margin-left: 30px;
+    background-image: url(/img/sprite_btn_facebook.png);
+    background-origin: padding-box;
+    background-position: 100% -370px;
+    background-size: auto;
+    color: #2D3956;
+    cursor: pointer;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 17px;
+    padding-top: 0px;
+    position: static;
+    text-align: center;
+    text-decoration: none;
+    width: 315px;
+}
+
+#fb-btn > span {
+    background-image: url(/img/sprite_btn_facebook.png);
+    background-origin: padding-box;
+    background-position: 0% -320px;
+    background-size: auto;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Arial";
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 42px;
+    line-height: 42px;
+    min-height: 0px;
+    min-width: 88px;
+    padding-bottom: 0px;
+    padding-left: 58px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: static;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    width: 257px;
+}
+
+#profile-pic {
+    margin: 5px;
+    padding-left: 60px;
+    height: 50px;
+    background-image: url(/img/profile.jpg);
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+
+#like-fb {
+    padding-left: 50px;
+    text-shadow: black 2px 2px 2px;
+    line-height: 150px;
+    font-family: "Helvetica";
+    color: white;
+    font-size: 130px;
+    position: fixed;
+    top: 20px;
+    bottom: 0px;
+}
+
+#friend-of {
+    line-height: 50px;
+    font-size: 35px;
+    padding: 30px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/img/bg.png");
+}
+
