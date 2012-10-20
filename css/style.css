@@ -92,6 +92,13 @@
     padding: 30px;
 }
 
+#sad-face {
+    color: #FEFEFE;
+    padding: 70px 0px 0px 70px;
+    font-size: 100px;
+    line-height: 130px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
