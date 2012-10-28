@@ -105,3 +105,39 @@ body {
     background-image: url("/img/bg.png");
 }
 
+#deny-list,
+#friend-list{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    min-height: 400px;
+}
+
+#friend-sample {
+    display: none;
+}
+
+.friend {
+    margin: 20px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.friend .name {
+    display: inline-block;
+    color: #EFEFEF;
+    height: 10px;
+    padding-left: 11px;
+    font-size: 19px;
+}
+
+#title > div{
+    box-sizing: border-box;
+    font-size: 20px;
+    display: inline-block;
+    width: 49%;
+    color: #FEFEFE;
+    padding: 10px 0px 0px 10px;
+}

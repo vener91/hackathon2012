@@ -19,10 +19,8 @@ if ($macAddr !== false) {
 } else {
     die("Can't get MAC");
 }
-
-
-$rc = `sudo /sbin/iptables -t mangle -D internet -m mac --mac-source $macAddr -j RETURN`; //Give access
-$rc = `sudo /sbin/iptables -t mangle -D internets -m mac --mac-source $macAddr -j RETURN`; //Give access
+$rc = `sudo /sbin/iptables -t mangle -D internet -m mac --mac-source $macAddr -j RETURN`; //Revoke access
+$rc = `sudo /sbin/iptables -t mangle -D internets -m mac --mac-source $macAddr -j RETURN`; //Revoke access
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,8 +34,7 @@ $rc = `sudo /sbin/iptables -t mangle -D internets -m mac --mac-source $macAddr -
     <body>
         <div id="sad-face">
             :( <br/>
-            You are not authorized.<br/>
-            Sorry
+            You are not authorized, but TerChrng Ng has been asked to approve your request<br/>
         </div>
     </body>
 </html>
